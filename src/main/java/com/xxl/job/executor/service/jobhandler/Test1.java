@@ -13,7 +13,7 @@ public class Test1 extends IJobHandler {
     @Override
     public ReturnT<String> execute(String s) throws Exception {
         ReturnT r = new ReturnT<String>("success");
-        r.setMsg("IDEA");
+        r.setMsg("IDEA_ero");
         return r;
     }
 }
