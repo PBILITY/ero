@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.eormega.dao.ArticleMapper" >
+  <resultMap id="BaseResultMap" type="com.eormega.pojo.Article" >
+    <constructor >
+      <idArg column="id" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="code" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="title" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="coverImg" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="context" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="readNum" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="authorId" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="authorName" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="authorHeadPortrait" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="integral" jdbcType="DECIMAL" javaType="java.lang.Long" />
+      <arg column="tags" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="tagIds" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="filePath" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="baiduCloudPath" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="baiduCloudPassword" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="deleteStatus" jdbcType="TINYINT" javaType="java.lang.Byte" />
+      <arg column="createDate" jdbcType="TIMESTAMP" javaType="java.util.Date" />
+      <arg column="updateDate" jdbcType="TIMESTAMP" javaType="java.util.Date" />
+    </constructor>
+  </resultMap>
+  <sql id="Base_Column_List" >
+    id, code, title, coverImg, context, readNum, authorId, authorName, authorHeadPortrait, 
+    integral, tags, tagIds, filePath, baiduCloudPath, baiduCloudPassword, deleteStatus, 
+    createDate, updateDate
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    from article
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from article
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.eormega.pojo.Article" >
+    insert into article (id, code, title, 
+      coverImg, context, readNum, 
+      authorId, authorName, authorHeadPortrait, 
+      integral, tags, tagIds, 
+      filePath, baiduCloudPath, baiduCloudPassword, 
+      deleteStatus, createDate, updateDate
+      )
+    values (#{id,jdbcType=INTEGER}, #{code,jdbcType=VARCHAR}, #{title,jdbcType=VARCHAR}, 
+      #{coverImg,jdbcType=VARCHAR}, #{context,jdbcType=VARCHAR}, #{readNum,jdbcType=INTEGER}, 
+      #{authorId,jdbcType=INTEGER}, #{authorName,jdbcType=VARCHAR}, #{authorHeadPortrait,jdbcType=VARCHAR}, 
+      #{integral,jdbcType=DECIMAL}, #{tags,jdbcType=VARCHAR}, #{tagIds,jdbcType=VARCHAR}, 
+      #{filePath,jdbcType=VARCHAR}, #{baiduCloudPath,jdbcType=VARCHAR}, #{baiduCloudPassword,jdbcType=VARCHAR}, 
+      #{deleteStatus,jdbcType=TINYINT}, #{createDate,jdbcType=TIMESTAMP}, #{updateDate,jdbcType=TIMESTAMP}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.eormega.pojo.Article" >
+    insert into article
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        id,
+      </if>
+      <if test="code != null" >
+        code,
+      </if>
+      <if test="title != null" >
+        title,
+      </if>
+      <if test="coverImg != null" >
+        coverImg,
+      </if>
+      <if test="context != null" >
+        context,
+      </if>
+      <if test="readNum != null" >
+        readNum,
+      </if>
+      <if test="authorId != null" >
+        authorId,
+      </if>
+      <if test="authorName != null" >
+        authorName,
+      </if>
+      <if test="authorHeadPortrait != null" >
+        authorHeadPortrait,
+      </if>
+      <if test="integral != null" >
+        integral,
+      </if>
+      <if test="tags != null" >
+        tags,
+      </if>
+      <if test="tagIds != null" >
+        tagIds,
+      </if>
+      <if test="filePath != null" >
+        filePath,
+      </if>
+      <if test="baiduCloudPath != null" >
+        baiduCloudPath,
+      </if>
+      <if test="baiduCloudPassword != null" >
+        baiduCloudPassword,
+      </if>
+      <if test="deleteStatus != null" >
+        deleteStatus,
+      </if>
+      <if test="createDate != null" >
+        createDate,
+      </if>
+      <if test="updateDate != null" >
+        updateDate,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="code != null" >
+        #{code,jdbcType=VARCHAR},
+      </if>
+      <if test="title != null" >
+        #{title,jdbcType=VARCHAR},
+      </if>
+      <if test="coverImg != null" >
+        #{coverImg,jdbcType=VARCHAR},
+      </if>
+      <if test="context != null" >
+        #{context,jdbcType=VARCHAR},
+      </if>
+      <if test="readNum != null" >
+        #{readNum,jdbcType=INTEGER},
+      </if>
+      <if test="authorId != null" >
+        #{authorId,jdbcType=INTEGER},
+      </if>
+      <if test="authorName != null" >
+        #{authorName,jdbcType=VARCHAR},
+      </if>
+      <if test="authorHeadPortrait != null" >
+        #{authorHeadPortrait,jdbcType=VARCHAR},
+      </if>
+      <if test="integral != null" >
+        #{integral,jdbcType=DECIMAL},
+      </if>
+      <if test="tags != null" >
+        #{tags,jdbcType=VARCHAR},
+      </if>
+      <if test="tagIds != null" >
+        #{tagIds,jdbcType=VARCHAR},
+      </if>
+      <if test="filePath != null" >
+        #{filePath,jdbcType=VARCHAR},
+      </if>
+      <if test="baiduCloudPath != null" >
+        #{baiduCloudPath,jdbcType=VARCHAR},
+      </if>
+      <if test="baiduCloudPassword != null" >
+        #{baiduCloudPassword,jdbcType=VARCHAR},
+      </if>
+      <if test="deleteStatus != null" >
+        #{deleteStatus,jdbcType=TINYINT},
+      </if>
+      <if test="createDate != null" >
+        #{createDate,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updateDate != null" >
+        #{updateDate,jdbcType=TIMESTAMP},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.eormega.pojo.Article" >
+    update article
+    <set >
+      <if test="code != null" >
+        code = #{code,jdbcType=VARCHAR},
+      </if>
+      <if test="title != null" >
+        title = #{title,jdbcType=VARCHAR},
+      </if>
+      <if test="coverImg != null" >
+        coverImg = #{coverImg,jdbcType=VARCHAR},
+      </if>
+      <if test="context != null" >
+        context = #{context,jdbcType=VARCHAR},
+      </if>
+      <if test="readNum != null" >
+        readNum = #{readNum,jdbcType=INTEGER},
+      </if>
+      <if test="authorId != null" >
+        authorId = #{authorId,jdbcType=INTEGER},
+      </if>
+      <if test="authorName != null" >
+        authorName = #{authorName,jdbcType=VARCHAR},
+      </if>
+      <if test="authorHeadPortrait != null" >
+        authorHeadPortrait = #{authorHeadPortrait,jdbcType=VARCHAR},
+      </if>
+      <if test="integral != null" >
+        integral = #{integral,jdbcType=DECIMAL},
+      </if>
+      <if test="tags != null" >
+        tags = #{tags,jdbcType=VARCHAR},
+      </if>
+      <if test="tagIds != null" >
+        tagIds = #{tagIds,jdbcType=VARCHAR},
+      </if>
+      <if test="filePath != null" >
+        filePath = #{filePath,jdbcType=VARCHAR},
+      </if>
+      <if test="baiduCloudPath != null" >
+        baiduCloudPath = #{baiduCloudPath,jdbcType=VARCHAR},
+      </if>
+      <if test="baiduCloudPassword != null" >
+        baiduCloudPassword = #{baiduCloudPassword,jdbcType=VARCHAR},
+      </if>
+      <if test="deleteStatus != null" >
+        deleteStatus = #{deleteStatus,jdbcType=TINYINT},
+      </if>
+      <if test="createDate != null" >
+        createDate = #{createDate,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updateDate != null" >
+        updateDate = #{updateDate,jdbcType=TIMESTAMP},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.eormega.pojo.Article" >
+    update article
+    set code = #{code,jdbcType=VARCHAR},
+      title = #{title,jdbcType=VARCHAR},
+      coverImg = #{coverImg,jdbcType=VARCHAR},
+      context = #{context,jdbcType=VARCHAR},
+      readNum = #{readNum,jdbcType=INTEGER},
+      authorId = #{authorId,jdbcType=INTEGER},
+      authorName = #{authorName,jdbcType=VARCHAR},
+      authorHeadPortrait = #{authorHeadPortrait,jdbcType=VARCHAR},
+      integral = #{integral,jdbcType=DECIMAL},
+      tags = #{tags,jdbcType=VARCHAR},
+      tagIds = #{tagIds,jdbcType=VARCHAR},
+      filePath = #{filePath,jdbcType=VARCHAR},
+      baiduCloudPath = #{baiduCloudPath,jdbcType=VARCHAR},
+      baiduCloudPassword = #{baiduCloudPassword,jdbcType=VARCHAR},
+      deleteStatus = #{deleteStatus,jdbcType=TINYINT},
+      createDate = #{createDate,jdbcType=TIMESTAMP},
+      updateDate = #{updateDate,jdbcType=TIMESTAMP}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+</mapper>
