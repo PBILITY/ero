@@ -38,7 +38,7 @@
       <file leaf-file-name="LoginContorller.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/eormega/controller/portal/LoginContorller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
+            <state relative-caret-position="893">
               <caret line="58" selection-start-line="58" selection-end-line="58" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -50,7 +50,7 @@
       <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5">
+            <state relative-caret-position="950">
               <caret line="50" column="16" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
             </state>
           </provider>
@@ -59,7 +59,7 @@
       <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/eormega/controller/portal/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
+            <state relative-caret-position="627">
               <caret line="50" selection-start-line="50" selection-end-line="50" />
             </state>
           </provider>
@@ -68,8 +68,17 @@
       <file leaf-file-name="xxl-job-executor.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources.dev/xxl-job-executor.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="36" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="36" />
+            <state relative-caret-position="95">
+              <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test1.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xxl/job/executor/service/jobhandler/Test1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -79,24 +88,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="228">
               <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="28" selection-end-column="11" />
-              <folding>
-                <element signature="e#839#867#0" expanded="true" />
-                <element signature="e#940#969#0" expanded="true" />
-                <element signature="e#1030#1054#0" expanded="true" />
-                <element signature="e#1121#1147#0" expanded="true" />
-                <element signature="e#1218#1242#0" expanded="true" />
-                <element signature="e#1312#1341#0" expanded="true" />
-                <element signature="e#1417#1455#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="24" column="19" lean-forward="true" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+            <state relative-caret-position="245">
+              <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -158,10 +158,12 @@
       <dir>D:\Study\mall\src\main\java\com\mmall</dir>
     </dirStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/mmall/controller/portal/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/controller/common/interceptor/Login.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/controller/backend/UserManageController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/pojo/User.java" />
@@ -185,7 +187,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/xxl/job/executor/service/jobhandler/DemoJobHandler.java" />
         <option value="$PROJECT_DIR$/src/main/resources.dev/quartz.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/applicationcontext-xxl-job.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xxl/job/executor/service/jobhandler/Test1.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xxl/job/executor/service/jobhandler/JobOne.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/eormega/common/ZipUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/eormega/common/ImgDownload.java" />
@@ -212,6 +213,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/eormega/dao/SessionRedisDao.java" />
         <option value="$PROJECT_DIR$/src/main/resources/applicationContext-shiro.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/applicationContext-xxl-job.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources.dev/xxl-job-executor.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xxl/job/executor/service/jobhandler/Test1.java" />
       </list>
     </option>
   </component>
@@ -259,84 +262,115 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-5" />
     <option name="y" value="320" />
     <option name="width" value="1750" />
     <option name="height" value="985" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="eormega" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eormega" type="462c0819:PsiDirectoryNode" />
+              <item name="eroo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eroo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="eormega" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eormega" type="462c0819:PsiDirectoryNode" />
+              <item name="eroo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eroo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="eormega" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eormega" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eormega" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eormega" type="462c0819:PsiDirectoryNode" />
+              <item name="eroo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eroo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="eormega" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eormega" type="462c0819:PsiDirectoryNode" />
+              <item name="eroo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eroo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="eormega" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eormega" type="462c0819:PsiDirectoryNode" />
+              <item name="eroo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eroo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="eormega" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="eormega" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eormega" type="462c0819:PsiDirectoryNode" />
+              <item name="eroo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eroo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xxl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="eormega" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eormega" type="462c0819:PsiDirectoryNode" />
+              <item name="eroo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eroo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources.dev" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xxl" type="462c0819:PsiDirectoryNode" />
+              <item name="job" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="eormega" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="eroo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eroo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xxl" type="462c0819:PsiDirectoryNode" />
+              <item name="job" type="462c0819:PsiDirectoryNode" />
+              <item name="executor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eroo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eroo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xxl" type="462c0819:PsiDirectoryNode" />
+              <item name="job" type="462c0819:PsiDirectoryNode" />
+              <item name="executor" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eroo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eroo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xxl" type="462c0819:PsiDirectoryNode" />
+              <item name="job" type="462c0819:PsiDirectoryNode" />
+              <item name="executor" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="jobhandler" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -345,7 +379,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../eormegaa" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -386,7 +420,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.8888">
+  <component name="RunManager" selected="Tomcat Server.9999">
     <configuration name="HWTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.eormega.common.HWTest" />
       <module name="eormega" />
@@ -439,7 +473,7 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="8888" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat1" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration name="9999" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat2" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="eormega:war exploded">
@@ -450,7 +484,8 @@
       </deployment>
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="Unnamed_mall_2" />
-        <option name="HTTP_PORT" value="8888" />
+        <option name="HTTP_PORT" value="9999" />
+        <option name="JNDI_PORT" value="1999" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
@@ -513,7 +548,7 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Tomcat Server.8888" />
+      <item itemvalue="Tomcat Server.9999" />
       <item itemvalue="Application.HWTest" />
     </list>
     <recent_temporary>
@@ -574,18 +609,18 @@
       <workItem from="1539567690216" duration="5278000" />
       <workItem from="1539591455919" duration="8040000" />
       <workItem from="1539753652755" duration="17063000" />
+      <workItem from="1539832527868" duration="3803000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="210610000" />
+    <option name="totallyTimeSpent" value="214413000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="7" />
     <layout>
       <window_info anchor="right" id="Palette" order="5" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.50067025" side_tool="true" visible="true" weight="0.32994187" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5013405" side_tool="true" weight="0.48471615" />
       <window_info anchor="bottom" id="Application Servers" order="0" weight="0.32994187" />
       <window_info anchor="right" id="Maven Projects" order="0" weight="0.32908848" />
       <window_info anchor="bottom" id="Database Changes" order="5" show_stripe_button="false" />
@@ -595,20 +630,19 @@
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="11" sideWeight="0.49932975" weight="0.4854651" />
+      <window_info anchor="bottom" id="Debug" order="11" sideWeight="0.49865952" weight="0.48471615" />
       <window_info anchor="bottom" id="TODO" order="14" />
-      <window_info anchor="bottom" id="Messages" order="3" weight="0.32848838" />
+      <window_info anchor="bottom" id="Messages" order="3" sideWeight="0.49932975" weight="0.32751092" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="1" />
       <window_info anchor="bottom" id="Java Enterprise" order="4" weight="0.32994187" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="bottom" id="Version Control" order="6" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="9" weight="0.32267442" />
+      <window_info anchor="bottom" id="Version Control" order="6" weight="0.32896653" />
       <window_info anchor="bottom" id="Spring" order="1" />
       <window_info anchor="bottom" id="Terminal" order="2" weight="0.32994187" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.24865952" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.25201073" />
       <window_info id="Web" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="8" weight="0.33284885" />
       <window_info anchor="right" id="Theme Preview" order="4" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
@@ -617,16 +651,16 @@
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="8" weight="0.33284885" />
     </layout>
     <layout-to-restore>
       <window_info anchor="bottom" id="Application Servers" order="0" weight="0.32994187" />
       <window_info id="Designer" order="0" />
-      <window_info anchor="bottom" id="Database Console" order="15" weight="0.32994187" />
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="bottom" id="Run" order="9" weight="0.32267442" />
       <window_info anchor="bottom" id="Spring" order="1" />
-      <window_info id="Image Layers" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Database Console" order="15" weight="0.32994187" />
+      <window_info anchor="bottom" id="Find" order="8" weight="0.33284885" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -634,16 +668,17 @@
       <window_info anchor="bottom" id="Terminal" order="2" weight="0.32994187" />
       <window_info id="Capture Tool" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32994187" />
       <window_info anchor="bottom" id="Messages" order="3" weight="0.32848838" />
       <window_info anchor="bottom" id="TODO" order="14" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.24865952" />
+      <window_info id="Image Layers" order="1" />
       <window_info anchor="bottom" id="Java Enterprise" order="4" weight="0.32994187" />
       <window_info anchor="bottom" id="Database Changes" order="5" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="6" show_stripe_button="false" />
       <window_info anchor="right" id="Maven Projects" order="0" weight="0.32908848" />
-      <window_info anchor="bottom" id="Find" order="8" weight="0.33284885" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
       <window_info anchor="right" id="Database" order="2" weight="0.12868632" />
       <window_info anchor="bottom" id="Message" order="7" />
@@ -755,13 +790,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xxl/job/executor/service/jobhandler/Test1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/eormega/common/ZipUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -790,13 +818,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xxl/job/executor/service/jobhandler/Erobroadway.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" selection-start-line="18" selection-end-line="18" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -910,10 +931,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="137">
           <caret line="73" column="13" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
-          <folding>
-            <element signature="e#2275#2276#0" expanded="true" />
-            <element signature="e#2340#2341#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -938,13 +955,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/xxl-job-executor.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="47" selection-start-line="1" selection-start-column="47" selection-end-line="1" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/xxl-job-executor.properties" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -963,12 +974,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="10" column="29" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1997#2013#0" expanded="true" />
-            <element signature="e#2303#2304#0" expanded="true" />
-            <element signature="e#2344#2345#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1015,19 +1020,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#748#749#0" expanded="true" />
-            <element signature="e#771#772#0" expanded="true" />
-            <element signature="e#801#802#0" expanded="true" />
-            <element signature="e#826#827#0" expanded="true" />
-            <element signature="e#863#864#0" expanded="true" />
-            <element signature="e#891#892#0" expanded="true" />
-            <element signature="e#926#927#0" expanded="true" />
-            <element signature="e#957#958#0" expanded="true" />
-            <element signature="e#1005#1006#0" expanded="true" />
-            <element signature="e#1045#1046#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1088,7 +1080,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/eormega/controller/portal/LoginContorller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
+        <state relative-caret-position="893">
           <caret line="58" selection-start-line="58" selection-end-line="58" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1098,22 +1090,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5">
+        <state relative-caret-position="950">
           <caret line="50" column="16" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/eormega/controller/portal/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
+        <state relative-caret-position="627">
           <caret line="50" selection-start-line="50" selection-end-line="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources.dev/xxl-job-executor.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="36" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -1121,22 +1106,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="28" selection-end-column="11" />
-          <folding>
-            <element signature="e#839#867#0" expanded="true" />
-            <element signature="e#940#969#0" expanded="true" />
-            <element signature="e#1030#1054#0" expanded="true" />
-            <element signature="e#1121#1147#0" expanded="true" />
-            <element signature="e#1218#1242#0" expanded="true" />
-            <element signature="e#1312#1341#0" expanded="true" />
-            <element signature="e#1417#1455#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources.dev/xxl-job-executor.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xxl/job/executor/service/jobhandler/Erobroadway.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="18" selection-start-line="18" selection-end-line="18" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xxl/job/executor/service/jobhandler/Test1.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
-          <caret line="24" column="19" lean-forward="true" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
         </state>
       </provider>
     </entry>
