@@ -1,0 +1,8 @@
+
+.idea/libraries/alipay_sdk_java20161213173952__2_.xml
+.idea/vcs.xml
+.idea/workspace.xml
+target/classes/xxl-job-executor.properties
+target/mmall/WEB-INF/classes/com/xxl/job/executor/service/jobhandler/Test1.class
+target/mmall/WEB-INF/classes/xxl-job-executor.properties
+*.class
